@@ -1,0 +1,68 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Build directories
+/build/
+bin/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Object files, static and dynamic libraries
+*.o
+*.a
+*.d
+*.lo
+*.la
+*.al
+*.lai
+*.gch
+*.pch
+
+# Debug files
+*.dSYM/
+*.stackdump
+*.log
+*.trace
+
+# Go specific
+# Binaries
+*.exe
+*.test
+*.out
+
+# Vendor directory in case you use Go modules
+/vendor/
+
+# Go test binary files
+*.test
+
+# Go workspace file
+go.work
+
+# Go mod
+go.sum
+go.mod
+
+# IDE specific (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Go cache
+/go/pkg/
+go.sum
+
+# Goland IDE specific
+*.iml
+
+# macOS-specific files
+.DS_Store
